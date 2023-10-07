@@ -9,6 +9,6 @@ $resp = new ConsultarResponse();
 
 
 
-$resp->Persona = Persona::Buscar('1');
+$resp->Persona = Persona::Buscar($_GET['Id']);
 
 echo json_encode($resp);
