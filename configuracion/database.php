@@ -1,7 +1,7 @@
 <?php
 class DataBase{
     public $db;   // handle of the db connexion
-    private static $dns = "mysql:host=localhost;dbname=[nombreDB]";
+    private static $dns = "mysql:host=localhost;dbname=ecs-8";
     private static $user = "root";
     private static $pass = "";
     private static $instance;
